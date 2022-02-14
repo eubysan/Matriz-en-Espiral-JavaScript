@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Shizuru', cursive;
+  text-align: center;
+}
+
+.titulo {
+  font-size: calc(1em + 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.titulo2 {
+  font-size: calc(1em + 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+img {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+table {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+
+.espiral td {
+  padding: 0;
+  border: 1px solid grey;
+  width: 3rem;
+  height: 3rem;
+}
